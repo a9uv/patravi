@@ -16,10 +16,24 @@
         href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
 
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link
+                href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+                rel="stylesheet">
+                
+            
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&display=swap" rel="stylesheet">
+
+                <link rel="stylesheet" href="./css/nav.css">
+                    <link rel="stylesheet" href="./css/footer_2.css">
+
     <title>PCR | Home </title>
     <style>
         body {
-            font-family: "Tinos", serif;
+      font-family: "Lato", Helvetica, Arial, sans-serif;
             font-weight: 400;
             font-style: normal;
 
@@ -37,12 +51,12 @@
             /* Ensure footer sticks to bottom */
         }
 
-        .header {
+        /* .header {
             overflow: hidden;
             background-color: #fcfcfc;
             padding: 5px 10px;
             display: flex;
-        }
+        } */
 
         .banner-text {
             margin-top: 40px;
@@ -72,11 +86,12 @@
         .alert {
             padding-top: 5px;
             padding-bottom: 5px;
-            background-color: #E16B6D;
+           background-color: #fcfcfc;
             /* Red */
-            color: white;
+            color: #cc0033;
             justify-content: center;
             text-align: center;
+            text-decoration: underline;
             /* margin-bottom: 15px; */
             /* margin-left: 30px; */
         }
@@ -156,65 +171,97 @@
             text-decoration: none;
         }
 
-        .fa:hover {
+        .button {
+    /* display: inline-block; */
+    padding: 10px 10px;
+    /* background-color: transparent; */
+    color: #cc0033;
+    /* Green text */
+    border: 2px solid #cc0033;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #cc0033;
+    /* Green background on hover */
+    color: white;
+}
+
+        /* .fa:hover {
             opacity: 0.8;
         }
 
         .fa-linkedin {
             color: #e16b6d;
-        }
+        } */
     </style>
 </head>
 
 <body>
     <div class="alert">
         <p>
-            <strong>Under Maintenance: Updating Clinical Data</strong>
+            <strong>Under Maintenance: Updating Webpages</strong>
         </p>
     </div>
-    <section class="header">
-        <div class="logo-container">
-            <img class="logo" src="logo_PCR.png" alt="Logo" />
+    <div class="header">
+        <div class="logo">
+            <a href="./index.html"> <img src="microbiotech.png" style="height: 9rem;" /> </a>
         </div>
-        <div class="banner-text-container">
-
+        <div class="nav-links">
+            <a href="./maintenance.html" class="">WHO WE ARE</a>
+            <a href="./maintenance.html" class="has-dropdown">THERAPEUTIC DEPTH
+                <!-- <span class="arrow-down"></span> -->
+            </a>
+            <a href="./maintenance.html" class="has-dropdown">TECHNOLOGY & DATA
+                <!-- <span class="arrow-down"></span> -->
+            </a>
+            <a href="./maintenance.html">INSIGHTS</a>
+            <a href="./maintenance.html" class="contact-btn">CONTACT US</a>
         </div>
-        <div class="menu">
-            <img class="menu-img" src="menu.png" />
-        </div>
-        <div></div>
-        <div></div>
-    </section>
+    </div>
 
     <section class="main">
-        <div class="back-image-container">
-            <img class="background-image" src="microscope.png" alt="Maintenance Image">
-            <div class="message">
-                <p class="about">
-                    Patravi Clinical Research recognizes Cellular and molecular biology research plays a fundamental
-                    role in advancing our
-                    understanding of life at the most basic levels, driving innovation in drug discovery, disease
-                    prevention, and genomic
-                    medicine. Researchers in this field employ a variety of techniques to investigate the mechanisms
-                    underlying cellular
-                    function, gene expression, and biochemical interactions.
-                </p>
+        <div class="back-image-container" style="display: flex; flex-direction: column;">
+            <h1 style="text-align: center; color: #cc0033; font-size: 3rem;"> Under Maintenance </h1>
+            <img class="background-image" src="microbiotech.png" alt="Maintenance Image">
+            <a href="./index.html" class="button" style="text-align: center; font-size:24px;">Return to Home → </a>
 
-            </div>
 
         </div>
     </section>
 
-    <section class="footer">
-        <div class="foot-container">
-            &copy; 2025 Patravi
-            <div class="social">
-                <a class='fa fa-linkedin' href="https://www.linkedin.com/company/patravi-clinical-research"
-                    target="_blank" class="linkedin-button"></a>
-            </div>
-
-        </div>
-    </section>
+            <footer class="footer">
+                <hr class="footer-divider">
+            
+                <div class="footer-content">
+                    <div class="footer-info">
+                        <p><strong>Patravi Biotech, Inc.</strong></p>
+                        <!-- <p>123 Helix Ave, Newport Beach, CA USA</p> -->
+                        <!-- <p>Tel: <a href="tel:+15135799911">+1 513-579-9911</a></p> -->
+                    </div>
+            
+                    <div class="footer-links">
+                        <p>© 2025 Patravi Biotech, All Rights Reserved |
+                            <a href="./maintenance.html">Privacy Policy</a> |
+                            <a href="./maintenance.html">Accessibility Statement</a> |
+                            <!-- <a href="./maintenance.html">UK Modern Slavery Act</a> |
+                                            <a href="./maintenance.html">CAN Supply Chains Act Report</a> | -->
+                            <a href="./maintenance.html">Terms of Use</a> |
+                            <a href="./maintenance.html">Sitemap</a>
+                        </p>
+                    </div>
+            
+                    <div class="social-icons">
+                        <a href="./maintenance.html" class="fa fa-facebook"></a>
+                        <a href="https://www.linkedin.com/company/patravi-biotech/" class="fa fa-linkedin"></a>
+                        <a href="./maintenance.html" class="fa fa-youtube"></a>
+                        <a href="./maintenance.html" class="fa fa-vimeo"></a>
+                    </div>
+                </div>
+            </footer>
 
 
 </body>
