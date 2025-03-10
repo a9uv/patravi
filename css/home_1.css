@@ -1,0 +1,75 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    /* Overall section padding */
+    margin: 20px;
+    font-family: sans-serif;
+
+    
+}
+
+.text-content {
+    width: 50%;
+    padding-right: 30px;
+    /* Spacing between text and image */
+    color: #666;
+    /* Grey Text */
+}
+
+.text-content h1 {
+    padding-left: 50px;
+    font-size: 2.5em;
+    color: black;
+    /* Dark Blue Heading */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.text-content p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.text-content a {
+    color: #007bff;
+    /* Blue Link Color */
+    text-decoration: none;
+}
+
+.image-container {
+    width: 45%;
+    /* Slightly smaller than text content to account for spacing */
+    border-radius: 10px;
+    /* Rounded corners for image */
+    overflow: hidden;
+    /* Ensures the image respects the border-radius */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* Removes extra space below image */
+    border-radius: 10px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column;
+        /* Stack text and image vertically */
+        padding: 20px;
+        text-align: center;
+        /* Center text on smaller screens */
+    }
+
+    .text-content,
+    .image-container {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 20px;
+        /* Add space between text and image */
+    }
+}
