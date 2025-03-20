@@ -144,7 +144,7 @@ p {
 }
 
 
-.hero-1-container{
+/* .hero-1-container{
         display: flex;
             justify-content: center;
             align-items: center;
@@ -152,8 +152,6 @@ p {
     border-radius: 8px;
     overflow: hidden;
     min-height: 80vh;
-
-    /* Subtle shadow */
 }
 
 .left-section {
@@ -198,7 +196,7 @@ p {
     border-radius: 25px;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
@@ -216,4 +214,4 @@ p {
     .left-section h2 {
         font-size: 1.2em;
     }
-}
+} */
