@@ -1,16 +1,12 @@
 .hero-section {
-    /* margin-top: 50px; */
     font-family: "Lato", Helvetica, Arial, sans-serif;
     display: flex;
     align-items: center;
-    /* padding: 2px 50px; */
-    background: linear-gradient(90deg, 0%, #CC0033 35%, #5F6A72 100%);
-    /* Dark blue background */
+    background: linear-gradient(90deg, 0%, #2583e8 35%, #5F6A72 100%);
     color: #3c3c3c;
     height: auto;
     text-align: center;
-    /* border-bottom: 1px solid black; */
-    /* Adjust as needed */
+    /* max-width: 1800px; */
 }
 
 h1 {
@@ -22,21 +18,17 @@ h1 {
     margin-bottom: 10px;
     font-weight: bold;
     text-align: center;
-        color: #cc0033;
-
+    color: #2583e8;
 }
 
 .subtitle-h3 {
     font-family: "Gemunu Libre", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    /* font-style: normal; */
     font-size: 1.8rem;
     margin-bottom: 10px;
     font-weight: bold;
-    /* text-align: left; */
     text-align: center;
-    /* color: #cc0033; */
 
 }
 
@@ -44,13 +36,10 @@ h1 {
     font-family: "Gemunu Libre", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    /* font-style: normal; */
     font-size: 1.8rem;
     margin-bottom: 10px;
     font-weight: bold;
-    /* text-align: left; */
-    /* text-align: center; */
-    color: #cc0033;
+    color: #2583e8;
 
 }
 
@@ -64,22 +53,21 @@ h1 {
     font-weight: bold;
     text-align: left;
     /* text-align: center; */
-    color: #cc0033;
-
+    color: #2583e8;
 }
 
 .hero-content {
     margin-top: 50px;
-    font-family: "Lato",
-    sans-serif;
+    font-family: "Lato",sans-serif;
     flex: 1;
     margin-right: 4rem;
     padding-bottom:120px;
+
     }
     
 .content-red{
     font-weight: 600;
-    color: #cc0033;
+    color: #2583e8;
 }
 .hero-image {
     flex: 1;
@@ -94,37 +82,6 @@ h1 {
     transition: 0.3s ease;
 }
 
-.hero-image img:hover {
-    transition: 0.3s;
-    transform: scale(1.1);
-
-}
-
-/* .breadcrumbs {
-    font-size: 12px;
-    margin-bottom: 20px;
-    color: #666;
-}
-
-.breadcrumbs a {
-    color: #666;
-    text-decoration: none;
-}
-
-.breadcrumbs span {
-    margin: 0 5px;
-} */
-
-/* .gradient-line-page-title{
-    align-items: center;
-    height: 5px;
-    background: linear-gradient(to right, #cc0033, white);
-    width: 70%;
-    border-radius: 5px;
- margin-bottom: 20px; 
-}*/
-
-
 p {
     font-size: 16px;
     line-height:2;
@@ -137,9 +94,9 @@ p {
     display: inline-block;
     padding: 10px 25px;
     background-color: transparent;
-    color: #cc0033;
+    color: #2583e8;
     /* Green text */
-    border: 2px solid #cc0033;
+    border: 2px solid #2583e8;
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
@@ -147,7 +104,7 @@ p {
 }
 
 .button:hover {
-    background-color: #cc0033;
+    background-color: #2583e8;
     /* Green background on hover */
     color: white;
 }

@@ -2,7 +2,7 @@
 font-family: "Lato", Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    /* background-color: #CC0033; 
+    /* background-color: #2583e8; 
     color: white;
     */
     /* Default text color to white for contrast */
@@ -14,7 +14,7 @@ font-family: "Lato", Helvetica, Arial, sans-serif;
     display: flex;
     align-items: center;
     padding: 2px 50px;
-    background: linear-gradient(90deg,  0%, #CC0033 35%, #5F6A72 100%);
+    background: linear-gradient(90deg,  0%, #2583e8 35%, #5F6A72 100%);
     /* Dark blue background */
     color: #3c3c3c;
     height: 500px;
@@ -77,8 +77,8 @@ h1 {
 
 .gradient-line {
     height: 5px;
-    /* background: linear-gradient(to right, white, #cc0033); */
-        background: linear-gradient(to right, #cc0033, white);
+    /* background: linear-gradient(to right, white, #2583e8); */
+        background: linear-gradient(to right, #2583e8, white);
     width:70%;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -86,8 +86,8 @@ h1 {
 
 .gradient-line-labs {
     height: 5px;
-    /* background: linear-gradient(to right, white, #cc0033); */
-    background: linear-gradient(to right, #cc0033, white);
+    /* background: linear-gradient(to right, white, #2583e8); */
+    background: linear-gradient(to right, #2583e8, white);
     border-radius: 5px;
     margin-bottom: 20px;
     width:  70%;
@@ -104,9 +104,9 @@ p {
     display: inline-block;
     padding: 10px 25px;
     background-color: transparent;
-    color: #cc0033;
+    color: #2583e8;
     /* Green text */
-    border: 2px solid #cc0033;
+    border: 2px solid #2583e8;
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
@@ -114,7 +114,7 @@ p {
 }
 
 .button:hover {
-    background-color: #cc0033;
+    background-color: #2583e8;
     /* Green background on hover */
     color: white;
 }
@@ -148,7 +148,7 @@ p {
         display: flex;
             justify-content: center;
             align-items: center;
- background: linear-gradient(to right, white, #cc0033);
+ background: linear-gradient(to right, white, #2583e8);
     border-radius: 8px;
     overflow: hidden;
     min-height: 80vh;

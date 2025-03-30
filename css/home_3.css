@@ -42,9 +42,9 @@ p {
     display: inline-block;
     padding: 10px 25px;
     background-color: transparent;
-    color: #cc0033;
+    color: #2583e8;
     /* Green text */
-    border: 2px solid #cc0033;
+    border: 2px solid #2583e8;
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
@@ -52,7 +52,7 @@ p {
 }
 
 .cta-button:hover {
-    background-color: #cc0033;
+    background-color: #2583e8;
     /* Green background on hover */
     color: white;
 }
