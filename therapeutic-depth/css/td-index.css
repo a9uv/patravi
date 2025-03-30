@@ -162,3 +162,20 @@ h1 {
 .grid-item:hover {
     transform: scale(1.05);
 }
+
+
+.attribution a{
+    font-size: 2px;
+    color: white;
+}
+
+.grid-item a{
+    text-decoration: none !important;
+    color: white;
+}
+
+.grid-item a p{
+    text-decoration: none !important;
+    color: white;
+}
+
