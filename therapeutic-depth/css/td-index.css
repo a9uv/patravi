@@ -1,28 +1,15 @@
-.hero-section {
-    /* margin-top: 50px; */
-    font-family: "Lato", Helvetica, Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    /* padding: 2px 50px; */
-    background: linear-gradient(90deg, 0%, #2583e8 35%, #5F6A72 100%);
-    /* Dark blue background */
-    color: #3c3c3c;
-    height: auto;
-    text-align: center;
-    /* border-bottom: 1px solid black; */
-    /* Adjust as needed */
-}
+
 
 h1 {
     font-family: "Gemunu Libre", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     /* font-style: normal; */
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 10px;
     font-weight: bold;
     text-align: center;
-    color: #2583e8;
+    color: white;
 
 }
 
@@ -40,7 +27,7 @@ h1 {
 
 }
 
-.subtitle-h3-red {
+.subtitle-h3-blue {
     font-family: "Gemunu Libre", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -54,127 +41,11 @@ h1 {
 
 }
 
-.about-content-h3 {
-    font-family: "Gemunu Libre", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    /* font-style: normal; */
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-    font-weight: bold;
-    text-align: left;
-    /* text-align: center; */
-    color: #2583e8;
 
-}
-
-.hero-content {
-    margin-top: 50px;
-    font-family: "Lato",
-        sans-serif;
-    flex: 1;
-    margin-right: 4rem;
-    padding-bottom: 120px;
-}
-
-.content-red {
-    font-weight: 600;
-    color: #2583e8;
-}
-
-.hero-image {
-    flex: 1;
-    margin-bottom: 9rem;
-
-}
-
-.hero-image img {
-    max-width: 80%;
-    height: auto;
-    border-radius: 50px;
-    transition: 0.3s ease;
-}
-
-.hero-image img:hover {
-    transition: 0.3s;
-    transform: scale(1.1);
-
-}
-
-/* .breadcrumbs {
-    font-size: 12px;
-    margin-bottom: 20px;
-    color: #666;
-}
-
-.breadcrumbs a {
-    color: #666;
-    text-decoration: none;
-}
-
-.breadcrumbs span {
-    margin: 0 5px;
-} */
-
-/* .gradient-line-page-title{
-    align-items: center;
-    height: 5px;
-    background: linear-gradient(to right, #2583e8, white);
-    width: 70%;
-    border-radius: 5px;
- margin-bottom: 20px; 
-}*/
-
-
-p {
-    font-size: 16px;
-    line-height: 2;
-    margin-bottom: 30px;
-}
-
-.button {
-    margin-top: 20px;
-    background-color: #00c698;
-    display: inline-block;
-    padding: 10px 25px;
-    background-color: transparent;
-    color: #2583e8;
-    /* Green text */
-    border: 2px solid #2583e8;
-    border-radius: 25px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.button:hover {
-    background-color: #2583e8;
-    /* Green background on hover */
-    color: white;
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .hero-section {
-        flex-direction: column;
-        /* Stack content on smaller screens */
-        text-align: center;
-        padding: 20px;
-        height: auto;
-    }
 
-    .hero-content {
-        padding-right: 0;
-        margin-bottom: 20px;
-    }
-
-    h1 {
-        font-size: 36px;
-    }
-
-    p {
-        font-size: 14px;
-    }
 }
 
 
@@ -201,25 +72,93 @@ p {
 }
 .box {
     font-size: 1.15rem;
-    background: linear-gradient(135deg, #ff6900, #2583e8);
+    background: linear-gradient(135deg, #d2d2d4, #2583e8);
     color: white;
     border-radius: 12px 4px 12px 4px !important;
     background-color: #f0f0f0;
     padding: 3.125rem;
     text-align: center;
 
-    /* Add these properties for perfect centering */
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.box a {
+.box-even{
+    font-size: 1.15rem;
+        color: white;
+        border-radius: 12px 4px 12px 4px !important;
+        background-color: #f0f0f0;
+        padding: 3.125rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #2583e8, #d2d2d4);
+}
+
+.box a, .box-even a {
     text-decoration: none;
     color: white;
 }
-/* Remove all link decorations and interactions */
 
 
-/* Ensure pseudo-classes do not affect the styling */
+.td-main{
 
+    /* background: linear-gradient(135deg, #d2d2d4, #2583e8); */
+    /* background: linear-gradient(#d2d2d4, #2583e8); */
+    background: linear-gradient(#080838, #2583e8);
+}
+
+.td-main-content{
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 1600px;
+    margin: auto;
+    color: white;
+}
+
+.therapeutic-grid {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.description {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+.grid-item {
+    border: 2px, solid, rgb(253, 253, 255);
+    border-radius: 10px;
+    padding: 40px 10px 5px 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.grid-item img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.grid-item p {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+}
