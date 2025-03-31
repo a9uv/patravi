@@ -1,6 +1,6 @@
 
 
-h1 {
+.td-h1 {
     font-family: "Gemunu Libre", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -9,7 +9,7 @@ h1 {
     margin-bottom: 10px;
     font-weight: bold;
     text-align: center;
-    color: #2583e8;
+    color: white;
 
 }
 
@@ -21,7 +21,7 @@ h1 {
     margin-bottom: 10px;
     font-weight: bold;
     text-align: center;
-    color: black;
+    color: white;
 
 }
 
@@ -52,37 +52,46 @@ h1 {
 
 
 
-.td-main{
+.td-headers{
 
     /* background: linear-gradient(135deg, #d2d2d4, #2583e8); */
     /* background: linear-gradient(#d2d2d4, #2583e8); */
-    background: linear-gradient(white 5%, #e5e4e2, 
-    #5094cf 25%,#2583e8 90%,#e5e4e2, white);
-}
+    padding-top: 10px;
+    background: linear-gradient(white 10%, 
+    #5094cf 15%,#2583e8 90%);
+    /* background: linear-gradient(white 5%,
+                #5094cf 15%, #2583e8 90%, #e5e4e2, white); */
+} 
 
 .td-main-content{
     text-align: center;
     padding: 40px 20px;
-    max-width: 1600px;
+    /* max-width: 1600px; */
     margin: auto;
-    color: black;
+    color: white;
     padding-bottom: 5rem;
+    
 }
 
 .therapeutic-grid {
     text-align: center;
-    padding: 40px 20px;
-    max-width: 1600px;
-    margin: auto;
+    padding: 40px 80px;
+    /* max-width: 1600px; */
+    /* margin: auto; */
+    background-color: #2583e8;
 }
 
 .description {
     font-size: 18px;
     max-width: 800px;
-    margin: 0 auto 30px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    color: white;
 }
 
 .grid-container {
+    max-width: 1400px;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -139,4 +148,9 @@ h1 {
 .grid-item a {
     text-decoration: none !important;
     color: inherit;
+}
+
+.td-pre-footer{
+    background: linear-gradient( #2583e8,#5094cf 30%, #e5e4e2 60%, white);
+    height: 8rem;
 }
