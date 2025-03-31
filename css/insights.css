@@ -74,7 +74,7 @@
 
 .cta-section {
     width: 100%;
-    background: linear-gradient(to right, #e63300, #2583e8);
+    background: linear-gradient(to right, #e5e4e2, #2583e8);
     padding: 25px 40px;
     display: flex;
     justify-content: space-between;
@@ -102,6 +102,7 @@
 
 .cta-button:hover {
     background-color: #f5f5f5;
+    color: #2583e8;
 }
 
 .cta-button span {
