@@ -9,7 +9,7 @@
     margin-bottom: 10px;
     font-weight: bold;
     text-align: center;
-    color: white;
+    color: #2583e8;
 
 }
 
@@ -17,11 +17,11 @@
     font-family: "Gemunu Libre", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 10px;
     font-weight: bold;
     text-align: center;
-    color: white;
+    color: #2583e8;
 
 }
 
@@ -53,16 +53,18 @@
 
 
 .td-headers{
-
+color: #2583e8;
     /* background: linear-gradient(135deg, #d2d2d4, #2583e8); */
     /* background: linear-gradient(#d2d2d4, #2583e8); */
-    padding-top: 10px;
-    background: linear-gradient(white 10%, 
-    #5094cf 15%,#2583e8 90%);
+    /* padding-top: 10px; */
+/* background: linear-gradient(0deg,rgba(37, 131, 232, 1) 0%, rgba(87, 158, 199, 1) 50%, rgba(255, 255, 255, 1) 100%); */
     /* background: linear-gradient(white 5%,
                 #5094cf 15%, #2583e8 90%, #e5e4e2, white); */
 } 
 
+.td-main{
+    background-image: url('../assets/layer2.svg')
+}
 .td-main-content{
     text-align: center;
     padding: 40px 20px;
@@ -70,6 +72,8 @@
     margin: auto;
     color: white;
     padding-bottom: 5rem;
+  
+    
     
 }
 
@@ -78,7 +82,8 @@
     padding: 40px 80px;
     /* max-width: 1600px; */
     /* margin: auto; */
-    background-color: #2583e8;
+    /* background-color: #2583e8; */
+    
 }
 
 .description {
@@ -86,7 +91,7 @@
     max-width: 800px;
     margin: 0 auto;
     padding-bottom: 20px;
-    color: white;
+    color: rgb(2, 65, 105);
 }
 
 .grid-container {
@@ -99,11 +104,14 @@
 }
 
 .grid-item {
+  
     border: 2px, solid, rgb(253, 253, 255);
     border-radius: 10px;
     padding: 40px 10px 5px 10px;
     text-align: center;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        box-shadow:5px 5px 5px rgba(0, 0, 0, 0.3);
+        background: linear-gradient(330deg, rgba(37, 131, 232, 1) 50%, rgba(59, 153, 212, 1) 70%);
 }
 
 .grid-item img {
@@ -120,7 +128,7 @@
 
 .grid-item:hover {
     transform: scale(1.05);
-    border: 4px, solid, #e5e4e2;
+    border: 4px, solid, #2583e8;
 }
 
 
@@ -151,6 +159,20 @@
 }
 
 .td-pre-footer{
-    background: linear-gradient( #2583e8,#5094cf 30%, #e5e4e2 60%, white);
-    height: 8rem;
+    height:10rem;
+    background: linear-gradient(180deg, rgba(37, 131, 232, 1) 0%, rgba(255, 255, 255, 1) 71%);
 }
+
+
+.spacer{
+    aspect-ratio: 960/540;
+    width: 100%;
+    baackground-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1{
+    background-image: url('../assets/layer1.svg')
+}
+
