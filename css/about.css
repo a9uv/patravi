@@ -72,6 +72,7 @@ h1 {
 .hero-image {
     flex: 1;
     margin-bottom: 9rem;
+  
 
 }
 
@@ -80,6 +81,11 @@ h1 {
     height: auto;
     border-radius: 50px;
     transition: 0.3s ease;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hero-image:hover{
+    transform: scale(1.05);
 }
 
 p {

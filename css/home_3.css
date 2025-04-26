@@ -1,12 +1,19 @@
 .home_3 {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
-    font-family: "Lato", sans-serif;
+        max-width: 1600px;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1.875rem;
+        padding-right: 1.875rem;
+        font-family: "Lato", sans-serif;
+        padding: 2px 50px;
 }
 
 .text-content {
+    font-family: "Lato", sans-serif;
+        flex: 1;
     max-width: 50%;
     color: #666;
 }
@@ -37,8 +44,7 @@ p {
     margin-bottom: 30px;
 }
 
-.cta-button {
-    background-color: #00c698;
+.cta-button-home-3 {
     display: inline-block;
     padding: 10px 25px;
     background-color: transparent;
@@ -51,17 +57,40 @@ p {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.cta-button:hover {
-    background-color: #2583e8;
-    /* Green background on hover */
-    color: white;
+.cta-button-home-3 a{
+        color: #2583e8;
+        text-decoration: none;
 }
 
+
+
+
 .image-container {
-    max-width: 40%;
+    flex: 1;
+    max-width: 60%;
+    display: flex;
 }
 
 .image-container img {
-    width: 100%;
+    width: 80%;
     height: auto;
+    border-radius: 50px;
+    transition: 0.3 ease;
+        align-items: center;
+            justify-content: center;
+            padding-left: 1.5rem;
+}
+
+.home-3 .image-container img {
+    width: 80%;
+    height: auto;
+    border-radius: 50px;
+    transition: 0.3 ease;
+
+
+}
+
+.home-3 .image-container img:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
 }
