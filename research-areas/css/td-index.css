@@ -48,7 +48,9 @@
 }
 
 
-
+p {
+    font-family: "Lato", sans-serif;
+}
 
 
 
@@ -71,7 +73,7 @@ color: #2583e8;
     /* max-width: 1600px; */
     margin: auto;
     color: white;
-    padding-bottom: 5rem;
+    /* padding-bottom: 2rem; */
   
     
     
@@ -79,7 +81,7 @@ color: #2583e8;
 
 .therapeutic-grid {
     text-align: center;
-    padding: 40px 80px;
+    padding: 40px 40px;
     /* max-width: 1600px; */
     /* margin: auto; */
     /* background-color: #2583e8; */

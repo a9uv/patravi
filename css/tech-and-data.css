@@ -29,9 +29,11 @@
 .text-section ul li {
     margin-bottom: 10px;
     font-size: 16px;
+    font-family: "Lato", sans-serif;
 }
 
 .text-section ul li a {
+    font-family: "Lato", sans-serif;
     text-decoration: none;
     color: #d33600;
     font-weight: bold;
@@ -89,6 +91,7 @@
 }
 
 .cta-button {
+    font-family: "Gemunu Libre", sans-serif;
     background-color: white;
     color: #2583e8;
     font-size: 16px;
@@ -109,4 +112,11 @@
 
 .cta-button span {
     font-size: 18px;
+}
+
+
+p {
+
+    font-family: "Lato", sans-serif;
+
 }
